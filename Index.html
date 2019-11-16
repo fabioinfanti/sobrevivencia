@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Sobre Vivência</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="nav-celular"
+    style="width: 100%; position: fixed; top: 0; left: 0; z-index: 99;">
+        <div class="container">
+            <div class="row" tag="cabecalho">
+                <div class="col-1">
+                    <div id="mySidenav" class="sidenav">
+                        <div class="sidenav-link">
+                            <a href="#">O Projeto</a>
+                            <a href="#">Você Sabia?</a>
+                            <a href="#">Entrevistas</a>
+                            <a href="#">Depoimentos</a>
+                        </div>
+                        <div class="sidenav-social">
+                            <nav>
+                                <ul class="icones-sociais">
+                                    <li>
+                                        <a href="" target="_blank" class="instagram">
+                                            instagram
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank" class="facebook">
+                                            facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank" class="youtube">
+                                            youtube
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div id="main"
+                    style="margin-left: 0px; display: block; position: relative; left: 0px; color: #000000; z-index :99999">
+                        <div class="btn-menu" onclick="toggleNav(this);">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                    <script>
+                        function toggleNav(x) {
+                            document.getElementById("mySidenav").style.width = document.getElementById("mySidenav").style.width === "100%" ? '' : "100%";
+                            document.getElementById("main").style.width = document.getElementById("main").style.width === "250px" ? '' : "250px";
+                            x.classList.toggle("change");
+                        }
+                    </script>
+                </div>
+                <div class="col-10"></div>
+            </div>
+        </div>        
+    </div>
+    <div class="container" style="position: relative; top: 25%;">
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="text-align: center;">
+                            <img src="image/Logo.png" alt="Logo Sobre Vivência" class="logo-home">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
