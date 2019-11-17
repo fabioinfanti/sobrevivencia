@@ -13,10 +13,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
 }
 
-.background-projeto{
+.background-projeto-1{
   background-image: url(../image/background-projeto-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +24,20 @@
 }
 
 @media screen and (max-width: 600px) {
-  .background-projeto{
+  .background-projeto-1{
+    height: 800px;
+  }
+}
+
+.background-projeto-2{
+  background-image: url(../image/background-projeto-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .background-projeto-2{
     height: 800px;
   }
 }
@@ -151,7 +163,11 @@ a{
       padding-top: 70px;
   }
 
- 
+@media screen and (max-width: 600px) {
+  .logo-home{
+      width: 100%;
+  }
+}
 
 .logo{
   text-align: center;
@@ -200,18 +216,27 @@ a{
   right: -20px;
 }
 
+@media screen and (max-width: 600px){
+  .poster{
+    width: 85%;
+    padding-top: 45%;
+    position: relative;
+    right: -20px;
+  }
+}
+
 .titulo{
   font-family: 'Nexa Bold', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   text-align: justify;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 @media screen and (max-width: 600px) {
   .titulo{
     font-family: 'Nexa Bold', sans-serif;
     font-size: 30px;
     text-align: justify;
-    margin-top: 50%;
+    margin-top: 60%;
   }
 }
 
@@ -223,6 +248,35 @@ a{
 
 @media screen and (max-width: 600px) {
   .texto{
+    font-family: 'Nexa Light', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+  }
+}
+
+.titulo-2{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 45px;
+  text-align: justify;
+  margin-top: 30%;
+}
+@media screen and (max-width: 600px) {
+  .titulo-2{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 60%;
+  }
+}
+
+.texto-2{
+  font-family: 'Nexa Light', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .texto-2{
     font-family: 'Nexa Light', sans-serif;
     font-size: 12px;
     text-align: justify;
