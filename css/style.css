@@ -7,6 +7,33 @@
     font-family: "Nexa Bold";
     src: url("../fonts/Nexa-Bold.otf") format("opentype");
     }
+    
+.background-home{
+  background-image: url(../image/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.background-projeto{
+  background-image: url(../image/background-projeto-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+}
+
+@media screen and (max-width: 600px) {
+  .background-projeto{
+    height: 800px;
+  }
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
 
 .sidenav {
     width: 100%;
@@ -101,18 +128,103 @@
   }
    
   .icones-sociais a {
-      width: 35px;
-      height: 35px;
+      width: 10%;
+      height: 10%;
       background-repeat: no-repeat;
       text-indent: -99999px;
   }
 
+  .instagram {
+    background-image: url(../image/instagram.png);
+}
+ 
+.facebook {
+    background-image: url(../image/facebook.png);
+}
+
+.youtube{
+    background-image: url(../image/youtube.png);
+}
+
   .logo-home{
       width: 40%;
+      padding-top: 70px;
   }
 
-  @media screen and (max-width: 600px) {
-    .logo-home{
-      width: 100%;
-    }
+ 
+
+.logo{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.video{    
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.continue-lendo{
+    text-align: center;
+    font-family: 'Nexa Light', sans-serif;
+    color: #000;
+    padding-top: 20px;
+}
+
+.continue-lendo p{
+    font-family: 'Nexa Light', sans-serif;
+}
+
+.continue-lendo i{
+    font-size: 30px;
+    position: relative;
+    top: -25px;
+}
+
+.continue-lendo :hover{
+    color: #faa61a;
+    text-decoration: none;
+}
+
+.continue-lendo p:hover{
+    font-family: 'Nexa Bold', sans-serif;
+}
+
+.poster{
+  width: 85%;
+  padding-top: 35%;
+  position: relative;
+  right: -20px;
+}
+
+.titulo{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 50px;
+  text-align: justify;
+  margin-top: 50%;
+}
+@media screen and (max-width: 600px) {
+  .titulo{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 50%;
   }
+}
+
+.texto{
+  font-family: 'Nexa Light', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .texto{
+    font-family: 'Nexa Light', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+  }
+}
