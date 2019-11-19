@@ -13,6 +13,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .background-home{
+    height: 810px;
+  }
 }
 
 .background-projeto-1{
@@ -25,7 +32,7 @@
 
 @media screen and (max-width: 600px) {
   .background-projeto-1{
-    height: 800px;
+    height: 810px;
   }
 }
 
@@ -34,12 +41,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
   .background-projeto-2{
-    height: 800px;
+    height: 650px;
   }
+}
+
+.trailer{
+  background-color: #000;
 }
 
 a{
@@ -183,6 +195,26 @@ a{
     align-items: center;
 }
 
+.video-2{    
+  margin-top: 20px;
+  padding-bottom: 200px;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .video-2{    
+    margin-top: 20px;
+    padding-bottom: 100px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .continue-lendo{
     text-align: center;
     font-family: 'Nexa Light', sans-serif;
@@ -257,7 +289,7 @@ a{
 .titulo-2{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
-  text-align: justify;
+  text-align: center;
   margin-top: 30%;
 }
 @media screen and (max-width: 600px) {
@@ -272,7 +304,7 @@ a{
 .texto-2{
   font-family: 'Nexa Light', sans-serif;
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -280,5 +312,70 @@ a{
     font-family: 'Nexa Light', sans-serif;
     font-size: 12px;
     text-align: justify;
+  }
+}
+
+.titulo-3{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .titulo-3{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 30%;
+    color: white;
+  }
+}
+
+.titulo-4{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+  .titulo-4{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20%;
+  }
+}
+
+.titulo-5{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 35px;
+  text-align: justify;
+  margin-top: 20%;
+}
+@media screen and (max-width: 600px) {
+  .titulo-5{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30%;
+    position: relative;
+    right: 0%;
+  }
+}
+
+.integrantes{
+  width: 110%;
+  padding-top: 15%;
+  position: relative;
+  right: 0px;
+}
+
+@media screen and (max-width: 600px){
+  .integrantes{
+    width: 120%;
+    padding-top: 20%;
+    position: relative;
+    right: 10px;
   }
 }
