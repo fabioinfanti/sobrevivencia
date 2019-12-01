@@ -60,6 +60,33 @@
   }
 }
 
+.background-projeto-4{
+  background-image: url(../image/background-projeto-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+}
+
+@media screen and (max-width: 600px) {
+  .background-projeto-4{
+    height: 600px;
+  }
+}
+
+.background-projeto-5{
+  background-image: url(../image/background-projeto-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .background-projeto-5{
+    height: 600px;
+  }
+}
 .trailer{
   background-color: #000;
 }
@@ -76,6 +103,11 @@
 .dados2{
   background-color: #faa61a;
   height: 650px;
+}
+
+.em-breve{
+  background-color: #faa61a;
+  height: 350px;
 }
 
 a{
@@ -194,15 +226,15 @@ a{
     background-image: url(../image/youtube.png);
 }
 
-  .logo-home{
-      width: 40%;
-      padding-top: 70px;
-  }
+.logo-home{
+  width: 40%;
+  padding-top: 60px;
+}
 
 @media screen and (max-width: 600px) {
-  .logo-home{
-      width: 100%;
-  }
+.logo-home{
+  width: 100%;
+}
 }
 
 .logo{
@@ -232,6 +264,26 @@ a{
   .video-2{    
     margin-top: 20px;
     padding-bottom: 100px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.video-3{    
+  margin-top: 20px;
+  padding-bottom: 200px;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .video-3{    
+    margin-top: 20px;
+    padding-bottom: 50px;
     flex-direction: row;
     justify-content: center;
     display: flex;
@@ -446,6 +498,53 @@ a{
     font-size: 30px;
     text-align: center;
     margin-top: 40%;
+  }
+}
+
+.titulo-9{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 45px;
+  text-align: justify;
+  margin-top: 40%;
+}
+@media screen and (max-width: 600px) {
+  .titulo-9{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+
+  }
+}
+
+.titulo-10{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .titulo-10{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 30%;
+    color: white;
+  }
+}
+
+.texto-4{
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .texto-4{
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #000;
   }
 }
 
