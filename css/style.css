@@ -41,12 +41,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 1080px;
 }
 
 @media screen and (max-width: 600px) {
   .background-projeto-2{
     height: 650px;
+  }
+}
+
+.background-projeto-2-1{
+  background-image: url(../image/background-projeto-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+}
+
+@media screen and (max-width: 600px) {
+  .background-projeto-2-1{
+    height: 700px;
   }
 }
 
@@ -65,7 +79,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 1080px;
+  height: 800px;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,7 +93,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 800px;
 }
 
 @media screen and (max-width: 600px) {
@@ -97,17 +111,17 @@
 
 .dados{
   background-color: #000;
-  height: 650px;
+  height: 700px;
 }
 
 .dados2{
   background-color: #faa61a;
-  height: 650px;
+  height: 700px;
 }
 
 .em-breve{
   background-color: #faa61a;
-  height: 350px;
+  height: 600px;
 }
 
 .fale-conosco{
@@ -370,7 +384,7 @@ a{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 @media screen and (max-width: 600px) {
   .titulo-2{
@@ -400,7 +414,7 @@ a{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
   color: white;
 }
 @media screen and (max-width: 600px) {
@@ -417,7 +431,7 @@ a{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 15%;
 }
 @media screen and (max-width: 600px) {
   .titulo-4{
@@ -449,7 +463,7 @@ a{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
   color: #000;
 }
 @media screen and (max-width: 600px) {
@@ -478,7 +492,8 @@ a{
 .texto-3{
   font-family: 'Nexa Light', sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -494,7 +509,7 @@ a{
   font-family: 'Nexa Bold', sans-serif;
   font-size: 45px;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 @media screen and (max-width: 600px) {
   .titulo-8{
@@ -568,10 +583,10 @@ a{
 }
 
 .integrantes{
-  width: 110%;
+  width: 100%;
   padding-top: 15%;
   position: relative;
-  right: 0px;
+  right: -10px;
 }
 
 @media screen and (max-width: 600px){
